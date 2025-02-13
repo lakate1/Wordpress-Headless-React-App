@@ -29,3 +29,17 @@
     margin: 0;
     min-height: auto;
 }
+
+/* .dropdown {
+    &:after {
+        content: "";
+        background-image: url("../images/accordion-expand-20x20.svg");
+    }
+} */
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    border: 2px solid white;
+}
