@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/styles/header.css';
-import logo from '../assets/images/logo-lrg-300x54-1.svg';
+// import logo from '../assets/images/logo-lrg-300x54-1.svg';
 
 function HeaderNav() {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -14,11 +14,11 @@ function HeaderNav() {
     return (
         <nav className="navbar-container" role="navigation">
             <div className="navbar-wrapper">
-                <div className="navbar-left">
+                {/* <div className="navbar-left">
                     <Link to="/home" className="navbar-logo">
                         <img src={logo} alt="Logo" className="logo-img" />
                     </Link>
-                </div>
+                </div> */}
                 <div className="navbar-center">
                     <ul className="navbar-links">
                         <li>
